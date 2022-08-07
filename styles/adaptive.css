@@ -1,0 +1,1357 @@
+@media screen and (max-width: 1250px) {
+    .header .container,
+    .products .container,
+    .info .container,
+    .slider .container,
+    .guarantee .container,
+    .order .container,
+    .footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .scroll {
+        left: -60px;
+    }
+
+    .main-link {
+        right: 20px;
+    }
+
+    .guide {
+        display: none;
+    }
+
+    .technology .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 120px;
+    }
+
+    .figure {
+        cursor: pointer;
+        outline: none;
+    }
+
+    .figure.active {
+        background-color: rgb(252, 237, 203);
+    }
+
+    .figure.active::before {
+        border-color: rgb(252, 237, 203);
+    }
+
+    .technology-figure4 {
+        bottom: 49px;
+        left: 225px;
+    }
+
+    .technology-figure3 {
+        bottom: 223px;
+    }
+
+    .technology-content {
+        padding-bottom: 15px;
+    }
+
+    .technology-advantage {
+        display: none;
+        position: static;
+        max-width: 100%;
+    }
+
+    .technology-advantage-text {
+        font-size: 15px;
+    }
+
+    .technology-advantages {
+        background-color: rgb(49, 49, 57);
+        width: 576px;
+        height: 119px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+    }
+
+    .technology-advantages::before {
+        content: '';
+        background-color: rgb(49, 49, 57);
+        position: absolute;
+        left: 203px;
+        top: 1px;
+        width: 58px;
+        height: 58px;
+        z-index: -1;
+        transform: rotate(45deg);
+    }
+
+    .technology-advantage.active {
+        display: block;
+        max-width: 100%;
+    }
+
+    .slider-main {
+        width: 85%;
+    }
+
+    .guarantee-descriptions {
+        justify-content: space-evenly;
+    }
+
+    .guarantee-description {
+        padding: 25px;
+        width: 450px;
+        height: 138px;
+        align-items: flex-start;
+    }
+
+    .guarantee-title-element {
+        font-size: 16px;
+    }
+
+    .guarantee-text {
+        font-size: 16px;
+    }
+
+    .calendar-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .insurance-img {
+        width: 40px;
+        height: 44px;
+    }
+
+    .guarantee-description-info {
+        max-width: 100%;
+    }
+
+    .guarantee-advantage:nth-child(1) .circle img {
+        width: 50px;
+        height: 57px;
+    }
+
+    .guarantee-advantage:nth-child(2) .circle img {
+        width: 66px;
+        height: 66px;
+    }
+
+    .guarantee-advantage:nth-child(3) .circle img {
+        width: 59px;
+        height: 59px;
+    }
+
+    .guarantee-advantage .circle {
+        width: 130px;
+        height: 130px;
+    }
+
+    .guarantee .button-download {
+        font-size: 16px;
+        width: 360px;
+    }
+
+    .order .container {
+        align-items: center;
+    }
+
+    .order-title {
+        width: 512px;
+    }
+
+    .order-image {
+        margin-right: 40px;
+    }
+
+    .order-image img {
+        width: 100%;
+    }
+
+    .form-excursion {
+        width: 400px;
+        padding: 50px 10px 20px 10px;
+        height: unset;
+    }
+
+    .form-excursion .form-content {
+        align-items: center;
+    }
+
+    .form-excursion-title {
+        font-size: 16px;
+    }
+
+    .form-excursion .input-form {
+        width: 350px;
+    }
+
+    .form-excursion .form-button {
+        width: 350px;
+    }
+
+    .form-excursion .form-checkbox {
+        width: 350px;
+    }
+
+    .form-excursion .form-success {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 334px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+
+    .product-gallery {
+        width: 477px;
+    }
+
+    .product-gallery a:first-child img {
+        height: 300px;
+    }
+
+    .product-gallery img:nth-child(2) {
+        width: 145px;
+    }
+
+    .product-gallery img:nth-child(3) {
+        width: 145px;
+    }
+
+    .product-gallery img:nth-child(4) {
+        width: 145px;
+    }
+
+    .product {
+        justify-content: space-evenly;
+    }
+
+    .product-content {
+        width: 450px;
+    }
+
+    .product-title {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .product-descriptions {
+        margin-bottom: 28px;
+        max-width: 420px;
+    }
+
+    .product-description {
+        width: 90px;
+        height: 90px;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .product-info {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .product .product-button {
+        width: 320px;
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .product .button-download {
+        width: 320px;
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .info-content {
+        grid-template-columns: repeat(2, 309px);
+        justify-content: space-evenly;
+    }
+
+    .info-element {
+        justify-content: flex-start;
+    }
+
+    .slider-main {
+        width: 95%;
+    }
+
+    .slider-element {
+        margin: 0 20px;
+        height: 400px;
+    }
+
+    .slider-element .img-description {
+        display: flex;
+        width: 100%;
+        left: 0;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .img-description-text {
+        font-size: 14px;
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .location {
+        display: none;
+    }
+
+    .order-excursion-title {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1002px) {
+
+    .scroll {
+        display: none;
+    }
+
+    .main-link {
+        display: none;
+    }
+
+    .guarantee-description {
+        width: 400px;
+    }
+
+    .order .container {
+        justify-content: center;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: center;
+        width: 588px;
+        margin: 113px auto 0 auto;
+    }
+
+    .products .container {
+        padding: 90px 0 120px 0;
+    }
+
+    .product:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .product:nth-child(even) .product-content {
+        margin-left: 0;
+    }
+
+    .product-content {
+        width: 100%;
+        margin-top: 30px;
+        display: contents;
+    }
+
+    .product-gallery {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .product-gallery a:first-child img {
+        height: 100%;
+    }
+
+    .product-gallery img:nth-child(2) {
+        width: 30%;
+    }
+
+    .product-gallery img:nth-child(3) {
+        width: 30%;
+    }
+
+    .product-gallery img:nth-child(4) {
+        width: 30%;
+    }
+
+    .product-title {
+        font-size: 28px;
+        order: -1;
+        align-self: flex-start;
+    }
+
+    .product-info {
+        font-size: 18px;
+        max-width: unset;
+        height: unset;
+        margin-top: 30px;
+    }
+
+    .product-descriptions {
+        max-width: unset;
+    }
+
+    .product-description {
+        width: 110px;
+        height: 110px;
+        font-size: 20px;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    .product:nth-child(odd) .product-content .product-info {
+        max-width: unset;
+    }
+
+    .slider-title {
+        max-width: 550px;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+
+    .slider-main {
+        margin: 60px auto 0;
+    }
+
+    .guarantee-description {
+        width: 290px;
+        height: 119px;
+        padding: 20px 7px 20px 20px;
+    }
+
+    .calendar-img {
+        width: 35px;
+        height: 36px;
+    }
+
+    .insurance-img {
+        width: 29px;
+        height: 35px;
+    }
+
+    .guarantee-description-info {
+        margin-left: 20px;
+    }
+
+    .guarantee-text {
+        font-size: 14px;
+    }
+
+    .guarantee-description-title {
+        margin-bottom: 12px;
+    }
+
+    .guarantee-advantage {
+        width: 181px;
+    }
+
+    .guarantee-advantage .circle {
+        margin-bottom: 20px;
+    }
+
+    .guarantee-advantage-title {
+        height: 32px;
+    }
+
+    .guarantee-advantage-text {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .guarantee-advantage:nth-child(1) .circle img {
+        width: 40px;
+        height: 47px;
+    }
+
+    .guarantee-advantage:nth-child(2) .circle img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .guarantee-advantage:nth-child(3) .circle img {
+        width: 49px;
+        height: 49px;
+    }
+
+    .guarantee-advantage .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .guarantee-title-element {
+        font-size: 16px;
+    }
+
+    .order-excursion-title {
+        font-size: 50px;
+    }
+
+    .footer .footer-logo {
+        width: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-address {
+        width: 242px;
+    }
+
+    .footer-address-text {
+        font-size: 16px;
+    }
+
+    .footer .contact {
+        width: 242px;
+    }
+
+    .footer .contact-call, .footer .contact-order-text {
+        font-size: 16px;
+    }
+
+    .products .container {
+        max-width: 588px;
+    }
+
+    .products .products-title {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 977px) {
+    .slider-element .img-description {
+        justify-content: space-evenly;
+    }
+
+    .img-description-text {
+        font-size: 18px;
+        width: 231px;
+    }
+}
+
+@media screen and (max-width: 841px) {
+    #menu {
+        width: 267px;
+        left: -45%;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .info-element-content-text {
+        font-size: 16px;
+    }
+
+    .footer-address-text:first-child {
+        max-width: 220px;
+    }
+}
+
+@media screen and  (max-width: 650px) {
+    #menu {
+        left: -64%;
+        width: 220px;
+        height: 800px;
+    }
+
+    #menu .content {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menu .contact {
+        display: flex;
+        margin-top: 51px;
+        align-items: flex-start;
+    }
+
+    #menu .contact .contact-call {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+
+    #menu .contact .contact-order-text {
+        font-size: 14px;
+    }
+
+    .header .contact {
+        width: 40px;
+    }
+
+    .header .contact-call, .header .contact-order {
+        display: none;
+    }
+
+    .header-burger {
+        width: unset;
+    }
+
+    .header .logo {
+        width: unset;
+    }
+
+    .main-content .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-content .main-title {
+        font-size: 34px;
+    }
+
+
+    .main-description {
+        text-align: center;
+        line-height: 1.286;
+        max-width: 290px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .products .container {
+        max-width: 400px;
+    }
+
+    .product-title {
+        font-size: 23px;
+    }
+
+    .product {
+        width: 400px;
+    }
+
+    .product-info {
+        font-size: 16px;
+    }
+
+    .product-description {
+        font-size: 18px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .technology .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .technology-content {
+        width: 400px;
+    }
+
+    .technology-content img {
+        width: 100%;
+    }
+
+    .technology-advantages {
+        width: 400px;
+    }
+
+    .technology-advantages::before {
+        left: 126px;
+    }
+
+    .technology-advantage-title {
+        font-size: 17px;
+    }
+
+    .technology-advantage-text {
+        font-size: 14px;
+    }
+
+    .technology-figure1 {
+        left: 61px;
+        top: 177px;
+    }
+
+    .technology-figure2 {
+        right: 72px;
+        top: 181px;
+    }
+
+    .technology-figure3 {
+        right: 112px;
+        bottom: 150px;
+    }
+
+    .technology-figure4 {
+        bottom: 28px;
+        left: 148px;
+    }
+
+    .technology-figure5 {
+        left: 94px;
+        top: 299px;
+    }
+
+    .info .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .info-title {
+        max-width: 416px;
+        margin: 0 auto;
+    }
+
+
+    .info-content {
+        grid-template-columns: 1fr;
+        row-gap: 95px;
+    }
+
+    .info-element {
+        justify-content: center;
+    }
+
+    .info-element:nth-child(1) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .info-element:nth-child(2) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .info-element:nth-child(3) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .info-element:nth-child(4) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .info-element:nth-child(5) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .info-element:nth-child(6) .info-element-content {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .slider-main {
+        width: 100%;
+    }
+
+    .slider-title {
+        width: 349px;
+    }
+
+    .img-description-text {
+        font-size: 14px;
+        width: 130px;
+        height: 57px;
+    }
+
+    .img-description-text div {
+        margin-bottom: 15px;
+    }
+
+    .slider-element {
+        margin: 0;
+    }
+
+    .slider-element .img-description {
+        justify-content: space-evenly;
+    }
+
+    .img-description-text div span {
+        display: none;
+    }
+
+    .guarantee-descriptions {
+        flex-direction: column;
+    }
+
+    .guarantee-description {
+        margin-bottom: 20px;
+    }
+
+    .guarantee-advantages {
+        flex-direction: column;
+    }
+
+    .guarantee-advantage {
+        margin-bottom: 40px;
+        width: unset;
+    }
+
+    .guarantee-advantage .circle {
+        margin-bottom: 40px;
+    }
+
+    .guarantee-advantage-title {
+        height: unset;
+    }
+
+    .guarantee-advantage-text {
+        height: unset;
+        margin-top: 15px;
+    }
+
+    .guarantee-advantages {
+        margin-bottom: 10px;
+    }
+
+    .guarantee-advantage:nth-child(2) {
+        order: -1;
+    }
+
+    .guarantee .button-download {
+        width: 292px;
+        height: 50px;
+        font-size: 14px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .order .container {
+        padding-bottom: 0;
+    }
+
+    .order-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .order-title {
+        max-width: unset;
+        width: unset;
+    }
+
+    .input-form {
+        width: 370px;
+    }
+
+    .form-button {
+        width: 370px;
+    }
+
+    .order-excursion-title {
+        font-size: 40px;
+    }
+
+    .order-excursion-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .order-excursion-descriptions {
+        max-width: 400px;
+    }
+
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 49px 0 85px 0;
+    }
+
+    .footer-address {
+        text-align: center;
+        order: 2;
+        margin-bottom: 49px;
+    }
+
+    .footer .contact {
+        width: unset;
+        order: 3;
+    }
+
+    .footer .contact-call, .footer .contact-order-text {
+        font-size: 18px;
+    }
+
+    .footer .footer-logo {
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .footer .footer-logo .logo {
+        margin-bottom: 45px;
+    }
+
+    .footer-address-text:first-child {
+        max-width: unset;
+    }
+
+    .form-success {
+        font-size: 20px;
+        max-width: 410px;
+        height: 180px;
+    }
+
+    .form-excursion {
+        width: 291px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .form-excursion .form-success {
+        height: 283px;
+    }
+
+    .form-excursion-title {
+        font-size: 14px;
+    }
+
+    .form-excursion .input-form {
+        width: 272px;
+        height: 47px;
+    }
+
+    .form-excursion .form-button {
+        width: 272px;
+        height: 47px;
+    }
+
+    .form-excursion .form-checkbox {
+        width: 272px;
+    }
+
+    .img-pop-up {
+        width: 15px;
+        height: 15px;
+    }
+
+    .form-excursion .checkbox-text {
+        font-size: 12px;
+    }
+
+    .form-excursion .form-checkbox {
+        padding: 0 8px 0 8px;
+    }
+
+    .form-excursion .checkbox + label {
+        padding-left: 42px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+
+    #menu {
+        left: -53%;
+        width: 190px;
+        height: 780px;
+    }
+
+    #menu .content {
+        width: 170px;
+    }
+
+    .menu-title {
+        margin-bottom: 60px;
+        font-size: 35px;
+    }
+
+    .menu ul li:last-child {
+        margin-bottom: 50px;
+    }
+
+    .header .container {
+        padding: 30px 15px;
+    }
+
+    .main-content .container {
+        padding: 147px 15px 279px 15px;
+    }
+
+    .main-content .main-title {
+        font-size: 30px;
+    }
+
+    .main-description {
+        font-size: 16px;
+    }
+
+    .main-content .button {
+        width: 228px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .products .container {
+        padding: 30px 15px 90px 15px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 1.333;
+    }
+
+    .product-title {
+        font-size: 20px;
+    }
+
+    .products .container {
+        max-width: 314px;
+    }
+
+    .product {
+        width: 314px;
+    }
+
+    .product-description:nth-child(1) {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+
+    .product-description:nth-child(2) {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .product-description:nth-child(3) {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+
+    .product-more {
+        margin-top: 60px;
+    }
+
+    .technology-content {
+        width: 290px;
+        padding: 42px 0 17px 0;
+    }
+
+    .technology-advantages {
+        width: 290px;
+        padding: 17px 16px;
+    }
+
+    .technology-advantages::before {
+        left: 94px;
+    }
+
+    .technology-advantage-text {
+        font-size: 12px;
+    }
+
+    .technology-advantage-title {
+        font-size: 16px;
+    }
+
+    .technology-figure1 {
+        left: 38px;
+        top: 110px;
+    }
+
+    .technology-figure2 {
+        right: 49px;
+        top: 114px;
+    }
+
+    .technology-figure3 {
+        right: 78px;
+        bottom: 107px;
+    }
+
+    .technology-figure4 {
+        bottom: 32px;
+        left: 116px;
+    }
+
+    .technology-figure5 {
+        left: 68px;
+        top: 201px;
+    }
+
+    .slider .container {
+        padding-bottom: 110px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .guarantee .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .info-content {
+        align-items: flex-start;
+        row-gap: 100px;
+    }
+
+    .info-element {
+        justify-content: flex-start;
+    }
+
+    .info-element:nth-child(1) .info-element-content {
+        max-width: 190px;
+    }
+
+    .info-element:nth-child(2) .info-element-content {
+        max-width: 217px;
+    }
+
+    .info-element:nth-child(3) .info-element-content {
+        max-width: 195px;
+    }
+
+    .info-element:nth-child(4) .info-element-content {
+        max-width: 179px;
+    }
+
+    .info-element:nth-child(5) .info-element-content {
+        max-width: 205px;
+    }
+
+    .info-element:nth-child(6) .info-element-content {
+        max-width: 169px;
+    }
+
+    .input-form {
+        width: 320px;
+    }
+
+    .form-content {
+        align-items: center;
+    }
+
+    .form-checkbox {
+        width: 320px;
+    }
+
+    .form-button {
+        width: 320px;
+    }
+
+    .order-excursion-descriptions {
+        font-size: 16px;
+        max-width: 307px;
+    }
+
+    .order-excursion-title {
+        max-width: 300px;
+    }
+
+    .order-excursion .container {
+        padding: 90px 0 0 0;
+        margin-bottom: 90px;
+    }
+
+    .order-excursion .button {
+        width: 290px;
+        height: 50px;
+    }
+
+    .slider-title {
+        width: 295px;
+    }
+
+    .form-success {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+    #menu {
+        left: -61%;
+        height: 719px;
+    }
+
+    .main {
+        background-size: auto 198px, cover;
+    }
+
+    .main-content .main-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .main-description {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .product:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .product-title {
+        font-size: 18px;
+    }
+
+    .products .container {
+        max-width: 291px;
+    }
+
+    .product {
+        width: 291px;
+    }
+
+    .product-gallery img:nth-child(2) {
+        width: 31%;
+    }
+
+    .product-gallery img:nth-child(3) {
+        width: 31%;
+    }
+
+    .product-gallery img:nth-child(4) {
+        width: 31%;
+    }
+
+    .product-info {
+        margin: 30px 0 40px 0;
+        font-size: 14px;
+        max-width: 285px;
+    }
+
+    .product-description {
+        width: 85px;
+        height: 85px;
+        font-size: 15px;
+    }
+
+    .product-descriptions {
+        margin-bottom: 40px;
+    }
+
+    .product .product-button {
+        width: 292px;
+        height: 50px;
+    }
+
+    .product .button-download {
+        width: 292px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .product-more span {
+        font-size: 15px;
+    }
+
+    .product-more span::before {
+        top: -2px;
+    }
+
+    .product:nth-child(odd) .product-content .product-info {
+        max-width: 283px;
+    }
+
+    .technology .container {
+        padding-bottom: 83px;
+    }
+
+    .info-content {
+        margin-top: 101px;
+    }
+
+    .info-element-content-title {
+        font-size: 16px;
+    }
+
+    .info .container {
+        padding-bottom: 90px;
+    }
+
+    .slider-main {
+        margin: 43px auto 0;
+    }
+
+    .slider .container {
+        padding-bottom: 100px;
+    }
+
+    .img-description-text:nth-child(1) {
+        width: 124px;
+    }
+
+    .img-description-text:nth-child(3) {
+        width: 110px;
+    }
+
+    .slider-element .img-description {
+        justify-content: space-between;
+    }
+
+    .guarantee-title {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .guarantee-descriptions {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .guarantee-advantage:nth-child(2) .circle img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .guarantee-advantage:nth-child(1) .circle img {
+        width: 47px;
+        height: 53px;
+    }
+
+    .guarantee-advantage:nth-child(3) .circle img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .guarantee-advantage .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .guarantee-text {
+        max-width: 263px;
+    }
+
+    .guarantee .container {
+        padding-bottom: 100px;
+    }
+
+    .input-form {
+        width: 291px;
+    }
+
+    .form-button {
+        width: 291px;
+    }
+
+    .form-checkbox {
+        width: 291px;
+    }
+
+    .order-excursion-title {
+        max-width: 200px;
+    }
+
+    .order-excursion-descriptions {
+        margin-bottom: 30px;
+    }
+
+    .footer .contact-order-text {
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
